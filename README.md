@@ -5,7 +5,10 @@ This repository contains the code and data for the project "Land Cover and Land 
 
 ## Project Overview
 
-This study investigates land cover and land use (LCLU) changes in Washington D.C. between 2017 and 2024 using Sentinel-2 satellite imagery. Three machine learning approaches—Random Forest (RF), Multi-Layer Perceptron (MLP), and Convolutional Neural Network (CNN)—were employed for classification. The study also utilizes histogram matching for image normalization.
+This study investigates land cover and land use (LCLU) changes in Washington D.C. between 2017 and 2024 using Sentinel-2 satellite imagery. By employing three machine learning approaches—Random Forest (RF), Multi-Layer Perceptron (MLP), and Convolutional Neural Network (CNN)—we aim to classify and analyze these changes. Preprocessing steps included cloud masking, mosaicking, and histogram matching to normalize images. Our findings highlight significant transitions from forested areas to urban developments, emphasizing the impact of urban expansion on green spaces. The results underscore the effectiveness of combining remote sensing data with advanced machine learning techniques for environmental monitoring. The complete codes used in this study are available on our GitHub page.
+
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -28,8 +31,8 @@ Sentinel-2 L2A level images from 2017 and 2024 were acquired using the Google Ea
 ## Preprocessing
 
 Preprocessing steps included:
-- Cloud masking
-- Mosaicking
+- Cloud masking (automaticaly applied)
+- Mosaicking (automaticaly applied)
 - Histogram matching using Scikit-image to normalize the images
 
 ## Classification Approaches
@@ -50,12 +53,12 @@ This study successfully applied RF, MLP, and CNN classifiers to detect LCLU chan
 ## Requirements
 
 
-Python 3.6+
-TensorFlow
-Scikit-learn
-Rasterio
-Geopandas
-Matplotlib
+- Python 3.6+
+- TensorFlow
+- Scikit-learn
+- Rasterio
+- Geopandas
+- Matplotlib
 
 
 
