@@ -2,7 +2,7 @@
 # Land Cover and Land Use Change Detection in Washington D.C.
 
 This repository contains the code and data for the project "Land Cover and Land Use Change Detection in Washington D.C. Using Sentinel-2 Data and Machine Learning Approaches."
-You can find the paper for this project <a href="[https://github.com/moeinp70/LULC/blob/main/EarthObservationAdvanced.pdf" target="_blank"> here</a>.</br>
+You can find the paper for this project <a href="https://github.com/moeinp70/LULC/blob/main/EarthObservationAdvanced.pdf" target="_blank"> here</a>.</br>
 ## Project Overview
 
 This study investigates land cover and land use (LCLU) changes in Washington D.C. between 2017 and 2024 using Sentinel-2 satellite imagery. By employing three machine learning approaches—Random Forest (RF), Multi-Layer Perceptron (MLP), and Convolutional Neural Network (CNN)—we aim to classify and analyze these changes. Preprocessing steps included cloud masking, mosaicking, and histogram matching to normalize images. Our findings highlight significant transitions from forested areas to urban developments, emphasizing the impact of urban expansion on green spaces. The results underscore the effectiveness of combining remote sensing data with advanced machine learning techniques for environmental monitoring. The complete codes used in this study are available on our GitHub page.
